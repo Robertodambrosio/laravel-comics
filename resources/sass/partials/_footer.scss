@@ -1,0 +1,104 @@
+    footer {
+        height: 80vh;
+
+        .footer-top-bg {
+            background-color: #0282f9;
+            height: 15%;
+            position: relative;
+            z-index: 1;
+
+            .container {
+                height: 100%;
+
+                .option-container {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .option {
+                        display: flex;
+                        align-items: center;
+
+                        img {
+                            width: 30px;
+                            margin-right: 10px;
+                        }
+
+                        span {
+                            color: white;
+                            text-transform: uppercase;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+         .footer-main-bg {
+             background-image: url("../img/footer-bg.jpg");
+             height: 70%;
+             background-size: cover;
+
+             .container {
+                 height: 100%;
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+
+                 .list-container {
+                     display: flex;
+
+                     ul {
+                         margin-left: 30px;
+                         list-style: none;
+
+                         h3 {
+                             color: white;
+                             font-size: 20px;
+                         }
+
+                         li {
+                             line-height: 20px;
+
+                             a {
+                                 text-decoration: none;
+                                 color: grey;
+                                 font-size: 12px;
+                                 font-weight: italic;
+                             }
+                         }
+                     }
+                 }
+
+                 .footer-logo img {
+                     position: relative;
+                     z-index: 0;
+                 }
+             }
+         }
+          .footer-bottom {
+              background-color: #303030;
+              height: 15%;
+              position: relative;
+              z-index: 1;
+
+              .container {
+                  height: 100%;
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+
+                  button {
+                      border: 2px solid #0282f9;
+                      background-color: transparent;
+                      color: white;
+                      text-transform: uppercase;
+                      padding: 10px 20px;
+                  }
+
+                  .footer-bottom-dx img {
+                      margin-left: 10px;
+                  }
+              }
+          }
+    }
